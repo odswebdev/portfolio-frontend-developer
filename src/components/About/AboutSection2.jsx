@@ -263,7 +263,7 @@ const AboutSection2 = () => {
                   <motion.img
                     custom={3}
                     variants={imageAnimation}
-                    src="./src/assets/images/photo-about.png"
+                    src="./assets/images/photo-about.png"
                     alt=""
                   />
                 </div>

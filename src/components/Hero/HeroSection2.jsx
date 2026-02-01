@@ -86,15 +86,15 @@ const HeroSection2 = () => {
               >
                 <a
                   className="download__cv__btn"
-                  href="../src/assets/docs/resume.pdf"
+                  href="./assets/docs/resume.pdf"
                   download="resume"
                 >
                   <span>Скачать CV</span>
-                  <img src="../src/assets/icons/download.svg" alt="" />
+                  <img src="./assets/icons/download.svg" alt="" />
                 </a>
                 <a className="download__cv__btn" href="/projects">
                   <span>Посмотреть все</span>
-                  <img src="../src/assets/icons/arrow_r2.svg" alt="" />
+                  <img src="./assets/icons/arrow_r2.svg" alt="" />
                 </a>
               </motion.div>
 
@@ -191,7 +191,7 @@ const HeroSection2 = () => {
                 <motion.img
                   className="hero__img"
                   variants={imageAnimation}
-                  src="../src/assets/hero-img.png"
+                  src="./assets/hero-img.png"
                   alt=""
                 />
               </motion.div>

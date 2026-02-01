@@ -73,13 +73,13 @@ const Timeline = () => {
         </VerticalTimeline>
         <div className="timeline__cv-link">
           <a
-            href="./src/assets/docs/resume.pdf"
+            href="./assets/docs/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="cv-link__button"
           >
             <span>Показать CV</span>
-            <img src="./src/assets/icons/arrow_r2.svg" alt=""></img>
+            <img src="./assets/icons/arrow_r2.svg" alt=""></img>
           </a>
         </div>
       </div>

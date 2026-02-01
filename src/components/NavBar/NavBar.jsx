@@ -361,7 +361,7 @@ const NavBar = ({ hamburgerRef, onThemeChange, onLayoutChange }) => {
           <a href="/">
             <img
               className="navbar__logo-img"
-              src="./src/assets/logo.png"
+              src="./assets/logo.png"
               alt=""
             />
           </a>

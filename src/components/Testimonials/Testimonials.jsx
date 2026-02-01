@@ -199,7 +199,7 @@ export default function Testimonials() {
               >
                 <img
                   className="testimonials__swiper-prev-btn-img"
-                  src="./src/assets/icons/angle-double-left.svg"
+                  src="./assets/icons/angle-double-left.svg"
                   alt="Previous"
                 />
               </motion.div>
