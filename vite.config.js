@@ -1,59 +1,12 @@
-/*import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import tailwindcss from "tailwindcss";
-import autoprefixer from "autoprefixer";
-import sanitizeEval from "./vite-plugin-sanitize-eval";
-
-export default ({ command }) => ({
-  plugins: [react(), sanitizeEval()],
-  css: {
-    postcss: {
-      plugins: [tailwindcss(), autoprefixer()],
-    },
-  },
-  server: {
-    proxy: {
-      "/api": {
-        target: "http://localhost:3000",
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, "/api"),
-      },
-    },
-    fs: {
-      exclude: ["node_modules"],
-    },
-    historyApiFallback: true,
-  },
-  build: {
-    sourcemap: command === "serve",
-    assetsInclude: ["***.css"],
-    rollupOptions: {
-      external: [
-        "node_modules/@mui/*",
-        "node_modules/three-stdlib/*",
-      ],
-    },
-  },
-}); */
-
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
 
-export default defineConfig(({ command }) => ({
-  plugins: [
-    react(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: 'src/assets/**/*', // Копируем всё из src/assets
-          dest: 'assets' // В dist/assets
-        }
-      ]
-    })
-  ],
+// Вместо vite-plugin-static-copy используем простую функцию
+export default defineConfig({
+  plugins: [react()],
   base: '/portfolio-frontend-developer/',
   
   css: {
@@ -66,15 +19,49 @@ export default defineConfig(({ command }) => ({
     outDir: 'dist',
     assetsDir: 'assets',
     emptyOutDir: true,
-    copyPublicDir: false, // Отключаем копирование public если его нет
     
+    // Копируем assets при сборке
     rollupOptions: {
+      plugins: [
+        {
+          name: 'copy-assets-manual',
+          closeBundle() {
+            const fs = require('fs');
+            const path = require('path');
+            
+            const srcDir = path.resolve(__dirname, 'src/assets');
+            const destDir = path.resolve(__dirname, 'dist/assets');
+            
+            if (fs.existsSync(srcDir)) {
+              copyDirSync(srcDir, destDir);
+              console.log('✅ Assets скопированы в dist/assets');
+            }
+            
+            function copyDirSync(src, dest) {
+              if (!fs.existsSync(dest)) {
+                fs.mkdirSync(dest, { recursive: true });
+              }
+              
+              const entries = fs.readdirSync(src, { withFileTypes: true });
+              
+              for (const entry of entries) {
+                const srcPath = path.join(src, entry.name);
+                const destPath = path.join(dest, entry.name);
+                
+                if (entry.isDirectory()) {
+                  copyDirSync(srcPath, destPath);
+                } else {
+                  fs.copyFileSync(srcPath, destPath);
+                }
+              }
+            }
+          }
+        }
+      ],
+      
       output: {
-        // JS/CS файлы
         chunkFileNames: 'assets/js/[name]-[hash].js',
         entryFileNames: 'assets/js/[name]-[hash].js',
-        
-        // Остальные assets (картинки, шрифты и т.д.)
         assetFileNames: (assetInfo) => {
           const info = assetInfo.name.split('.');
           const ext = info[info.length - 1];
@@ -82,12 +69,9 @@ export default defineConfig(({ command }) => ({
           if (/png|jpe?g|svg|gif|ico|webp/i.test(ext)) {
             return 'assets/images/[name]-[hash][extname]';
           }
-          if (/woff2?|ttf|eot|otf/i.test(ext)) {
-            return 'assets/fonts/[name]-[hash][extname]';
-          }
           return 'assets/[name]-[hash][extname]';
         }
       }
     }
   }
-}));
+});
