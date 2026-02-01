@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import React, { useRef, useState } from "react";
-import "./src/input.css";
+import "/src/input.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import { motion } from "framer-motion";
