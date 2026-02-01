@@ -1,7 +1,7 @@
 {
   "name": "portfolio-frontend-developer",
   "private": true,
-  "homepage": "https://odswebdev.github.io/portfolio-frontend-developer"
+  "homepage": "https://odswebdev.github.io/portfolio-frontend-developer",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
