@@ -17,7 +17,7 @@ import {
 import TechSlider from "./components/Stack/TechSlider";
 import Cursor from "./components/Cursor";
 import BgGradientAnime from "./components/BgAnimate/BgGradientAnime";
-import "../src/components/variables.css"
+import "/src/components/variables.css";
 import { themes, layouts } from "./components/constans/data";
 import Sidebar from "./Sidebar";
 import AppRoutes from "./AppRoutes";

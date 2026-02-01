@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "watch:css": "postcss src/input.css -o src/output.css",
-    "watch": "chokidar \"../src/**/*.jsx\" -c \"npm run dev\"",
+    "watch": "chokidar \"./src/**/*.jsx\" -c \"npm run dev\"",
     "start": "node server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

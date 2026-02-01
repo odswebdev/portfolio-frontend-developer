@@ -1013,8 +1013,8 @@
   --scrollbar-track-color: #f1c40f; /* Цвет фона скроллбара */
   --theme-icon-bg: #ffffff; /* Цвет иконок */
 
-  /*  --hero-bg: url("./src/assets/photos/abstract/abstract-astronaut.jpg");
-  --general-bg: url("./src/assets/photos/abstract/abstract-astronaut-snap.jpg"); */
+  /*  --hero-bg: url("/src/assets/photos/abstract/abstract-astronaut.jpg");
+  --general-bg: url("/src/assets/photos/abstract/abstract-astronaut-snap.jpg"); */
 }
 
 .theme-sunny-softness {
@@ -1173,6 +1173,6 @@
 
   --theme-icon-bg: #fff;
 
-  --header-hero-bg: url("./src/assets/photos/abstract/abstract-astronaut.jpg");
-  --section-bg: url("./src/assets/photos/abstract/abstract-astronaut-snap.jpg");
+  --header-hero-bg: url("/src/assets/photos/abstract/abstract-astronaut.jpg");
+  --section-bg: url("/src/assets/photos/abstract/abstract-astronaut-snap.jpg");
 }

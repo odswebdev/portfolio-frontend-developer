@@ -79,7 +79,7 @@ const Timeline = () => {
             className="cv-link__button"
           >
             <span>Показать CV</span>
-            <img src="../src/assets/icons/arrow_r2.svg" alt=""></img>
+            <img src="./src/assets/icons/arrow_r2.svg" alt=""></img>
           </a>
         </div>
       </div>

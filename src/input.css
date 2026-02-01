@@ -3461,7 +3461,7 @@ body {
 }
 
 canvas {
-  background-image: url("./src/assets/photos/abstract/abstract-astronaut.jpg");
+  background-image: url("/src/assets/photos/abstract/abstract-astronaut.jpg");
   color: #fff;
 }
 
