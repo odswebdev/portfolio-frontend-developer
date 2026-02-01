@@ -1,6 +1,7 @@
 {
-  "name": "job-react-portfolio",
+  "name": "portfolio-frontend-developer",
   "private": true,
+  "homepage": "https://odswebdev.github.io/portfolio-frontend-developer"
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
@@ -11,7 +12,7 @@
     "watch": "chokidar \"./src/**/*.jsx\" -c \"npm run dev\"",
     "start": "node server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@custom-react-hooks/all": "^1.4.19",
