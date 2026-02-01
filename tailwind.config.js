@@ -141,39 +141,39 @@ module.exports = {
         "gradient-theme4": "linear-gradient(to right, #8e2de2, #4a00e0)",
         "gradient-theme5": "linear-gradient(to right, #ad5389, #3c1053)",
         "image-theme1":
-          "url('/src/assets/photos/abstract/retrowave-scenery.jpg')",
+          "url('./src/assets/photos/abstract/retrowave-scenery.jpg')",
         themeAstronaut:
-          "url('/src/assets/photos/abstract/abstract-astronaut.jpg')",
+          "url('./src/assets/photos/abstract/abstract-astronaut.jpg')",
         /* "image-theme3":
-          "url('/src/assets/photos/abstract/abstract-circles.jpg')", */
+          "url('./src/assets/photos/abstract/abstract-circles.jpg')", */
         "image-theme5":
-          "url('/src/assets/photos/abstract/abstract-mountains.jpg')",
-        "image-theme6": "url('/src/assets/photos/abstract/abstract-grid2.jpg')",
-        "image-theme7": "url('/src/assets/photos/abstract/man-vr-glasses.jpg')",
+          "url('./src/assets/photos/abstract/abstract-mountains.jpg')",
+        "image-theme6": "url('./src/assets/photos/abstract/abstract-grid2.jpg')",
+        "image-theme7": "url('./src/assets/photos/abstract/man-vr-glasses.jpg')",
         themeSpace:
-          "url('/src/assets/photos/abstract/abstract-astronaut-snap.jpg')",
-        themeBrownBlackGr: "url('/src/assets/photos/gr-bg-pt.png')",
-        themeRoseOrangeGr: "url('/src/assets/photos/gr-bg-pt2.png')",
-        themeBlueLineGr: "url('/src/assets/photos/gr-bg-pt3.png')",
-        themeBlueBoxGr: "url('/src/assets/photos/gr-bg-pt4.png')",
-        themeMetallLineGr: "url('/src/assets/photos/gr-bg-pt7.png')",
-        themeRandomGr: "url('/src/assets/photos/gr-bg-pt8.png')",
+          "url('./src/assets/photos/abstract/abstract-astronaut-snap.jpg')",
+        themeBrownBlackGr: "url('./src/assets/photos/gr-bg-pt.png')",
+        themeRoseOrangeGr: "url('./src/assets/photos/gr-bg-pt2.png')",
+        themeBlueLineGr: "url('./src/assets/photos/gr-bg-pt3.png')",
+        themeBlueBoxGr: "url('./src/assets/photos/gr-bg-pt4.png')",
+        themeMetallLineGr: "url('./src/assets/photos/gr-bg-pt7.png')",
+        themeRandomGr: "url('./src/assets/photos/gr-bg-pt8.png')",
         themeTextAbstractBlack:
-          "url('/src/assets/photos/iridescent-texture-background.jpg')",
+          "url('./src/assets/photos/iridescent-texture-background.jpg')",
         themeTextAbstractLight:
-          "url('/src/assets/photos/white-iridescent-texture-background.jpg')",
+          "url('./src/assets/photos/white-iridescent-texture-background.jpg')",
         themeTextWaveBlue:
-          "url('/src/assets/photos/image-from-rawpixel-id-11992051-jpeg.jpg')",
+          "url('./src/assets/photos/image-from-rawpixel-id-11992051-jpeg.jpg')",
         "video-theme1":
-          "url('/src/assets/videos/mixkit-abstract-tunnel-of-digital-rotating-squares-30868-hd-ready.mp4')",
+          "url('./src/assets/videos/mixkit-abstract-tunnel-of-digital-rotating-squares-30868-hd-ready.mp4')",
         "video-theme2":
-          "url('/src/assets/videos/vecteezy_a-software-developer-working-on-a-complex-coding-project_47880060.mov')",
+          "url('./src/assets/videos/vecteezy_a-software-developer-working-on-a-complex-coding-project_47880060.mov')",
         themeMouseColor: "linear-gradient(to right, #ff7e5f, #feb47b)",
         themeFogEffect: "linear-gradient(to right, #000, #000)",
         themeWaterfallShinyDrops: "linear-gradient(to right, #ff7e5f, #feb47b)",
         themeElectricFlashes: "linear-gradient(to right, #ff7e5f, #feb47b)",
         themeAstronaut2:
-          "url('/src/assets/photos/abstract/abstract-astronaut.jpg')",
+          "url('./src/assets/photos/abstract/abstract-astronaut.jpg')",
       },
       fontSize: {
         "clamp-logo": "clamp(1.25rem, 4vw + 0.5rem, 2.5rem)",

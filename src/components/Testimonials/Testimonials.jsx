@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import React, { useRef, useState } from "react";
-import "/src/input.css";
+import "./src/input.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import { motion } from "framer-motion";
@@ -199,7 +199,7 @@ export default function Testimonials() {
               >
                 <img
                   className="testimonials__swiper-prev-btn-img"
-                  src="../../src/assets/icons/angle-double-left.svg"
+                  src="../.../src/assets/icons/angle-double-left.svg"
                   alt="Previous"
                 />
               </motion.div>
@@ -214,7 +214,7 @@ export default function Testimonials() {
               >
                 <img
                   className="testimonials__swiper-next-btn-img"
-                  src="../../src/assets/icons/angle-double-right.svg"
+                  src="../.../src/assets/icons/angle-double-right.svg"
                   alt="Next"
                 />
               </motion.div>

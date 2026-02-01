@@ -125,15 +125,15 @@ const Header = ({ hamburgerRef, onThemeChange, onLayoutChange }) => {
               >
                 <a
                   className="download__cv__btn"
-                  href="./src/assets/docs/resume.pdf"
+                  href="../src/assets/docs/resume.pdf"
                   download="resume"
                 >
                   <span>Скачать CV</span>
-                  <img src="./src/assets/icons/download.svg" alt="" />
+                  <img src="../src/assets/icons/download.svg" alt="" />
                 </a>
                 <a className="download__cv__btn" href="#projects">
                   <span>Посмотреть все</span>
-                  <img src="./src/assets/icons/arrow_r2.svg" alt="" />
+                  <img src="../src/assets/icons/arrow_r2.svg" alt="" />
                 </a>
               </motion.div>
 
@@ -230,7 +230,7 @@ const Header = ({ hamburgerRef, onThemeChange, onLayoutChange }) => {
                 <motion.img
                   className="hero__img"
                   variants={imageAnimation}
-                  src="../src/assets/hero-img.png"
+                  src=".../src/assets/hero-img.png"
                   alt=""
                 />
               </motion.div>

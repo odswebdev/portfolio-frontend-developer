@@ -6,7 +6,7 @@ import { FiMoon } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import { themes, layouts } from "../constans/data";
-import { ThemeProvider, useTheme } from "/src/ThemeContext";
+import { ThemeProvider, useTheme } from "./src/ThemeContext";
 import AnimatedThemePreview from "../BgAnimate/AnimatedThemePreview";
 import MouseColorBackground from "../BgAnimate/MouseColorBackground";
 import FogEffect from "../BgAnimate/FogEffect";
@@ -361,7 +361,7 @@ const NavBar = ({ hamburgerRef, onThemeChange, onLayoutChange }) => {
           <a href="/">
             <img
               className="navbar__logo-img"
-              src="../src/assets/logo.png"
+              src=".../src/assets/logo.png"
               alt=""
             />
           </a>

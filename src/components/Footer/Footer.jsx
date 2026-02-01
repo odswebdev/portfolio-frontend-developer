@@ -40,7 +40,7 @@ const Footer = ({ hamburgerRef, onThemeChange }) => {
           animate={inView ? "visible" : "hidden"}
         >
           <a href="\">
-            <img src="./src/assets/logo.png" alt="Logo" />
+            <img src="../src/assets/logo.png" alt="Logo" />
           </a>
           <p className="footer__copy__text">
             Copyright &copy; 2024-2025. Все права защищены

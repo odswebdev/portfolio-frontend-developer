@@ -17,7 +17,7 @@ export const themes = [
     name: "Астронавт",
     class:
       "themeAstronaut bg-themeAstronaut bg-cover theme-sc no-repeat bg-fixed",
-    img: "/src/assets/photos/abstract/abstract-astronaut.jpg",
+    img: "./src/assets/photos/abstract/abstract-astronaut.jpg",
     scrollbarColor: "#0fc",
     scrollbarTrackColor: "#fff",
   },
@@ -25,14 +25,14 @@ export const themes = [
     id: 2,
     name: "Космос",
     class: "themeSpace bg-themeSpace bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/abstract/abstract-astronaut-snap.jpg",
+    img: "./src/assets/photos/abstract/abstract-astronaut-snap.jpg",
   },
   {
     id: 3,
     name: "Темная абстрактная текстура",
     class:
       "themeTextAbstractBlack bg-themeTextAbstractBlack bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/iridescent-texture-background.jpg",
+    img: "./src/assets/photos/iridescent-texture-background.jpg",
     scrollbarColor: "#bd2fae",
     scrollbarTrackColor: "#fff",
   },
@@ -40,25 +40,25 @@ export const themes = [
     id: 4,
     name: "Текстура синие волны",
     class: "themeTextWaveBlue bg-themeTextWaveBlue bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/image-from-rawpixel-id-11992051-jpeg.jpg",
+    img: "./src/assets/photos/image-from-rawpixel-id-11992051-jpeg.jpg",
   },
   {
     id: 5,
     name: "Темно-коричневая тема",
     class: "themeBrownBlackGr bg-themeBrownBlackGr bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/gr-bg-pt.png",
+    img: "./src/assets/photos/gr-bg-pt.png",
   },
   {
     id: 6,
     name: "Металлические линии",
     class: "themeMetallLineGr bg-themeMetallLineGr bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/gr-bg-pt7.png",
+    img: "./src/assets/photos/gr-bg-pt7.png",
   },
   {
     id: 7,
     name: "Разноцветный рандом",
     class: "themeRandomGr bg-themeRandomGr bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/gr-bg-pt8.png",
+    img: "./src/assets/photos/gr-bg-pt8.png",
   },
   {
     id: 8,
@@ -76,19 +76,19 @@ export const themes = [
     id: 10,
     name: "Image Theme 5",
     class: "theme-image5 bg-image-theme5 bg-cover no-repeat bg-fixed bg-center",
-    img: "/src/assets/photos/abstract/abstract-mountains.jpg",
+    img: "./src/assets/photos/abstract/abstract-mountains.jpg",
   },
   {
     id: 11,
     name: "Image Theme 6",
     class: "theme-image6 bg-image-theme6 bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/abstract/abstract-grid2.jpg",
+    img: "./src/assets/photos/abstract/abstract-grid2.jpg",
   },
   {
     id: 12,
     name: "Image Theme 7",
     class: "theme-image7 bg-image-theme7 bg-cover no-repeat bg-fixed",
-    img: "/src/assets/photos/abstract/man-vr-glasses.jpg",
+    img: "./src/assets/photos/abstract/man-vr-glasses.jpg",
   },
 ];
 
@@ -121,7 +121,7 @@ export const experiences = [
       "Верстка на HTML и CSS3 медицинских документов в МИС Renovatio Clinica.",
       "Верстка сайтов по макетам Figma и доработка для CMS Modx и других.",
     ],
-    icon: "../src/assets/images/logo-renovatio.svg",
+    icon: ".../src/assets/images/logo-renovatio.svg",
     iconBg: "#fff",
     date: "Май 2021 — февраль 2024",
     link: "#",
@@ -141,7 +141,7 @@ export const experiences = [
       "Верстка сайта, доработка модулей на различных CMS",
       "Доработка модулей для 1С-Битрикс.",
     ],
-    icon: "../src/assets/images/logo-ilma.png",
+    icon: ".../src/assets/images/logo-ilma.png",
     iconBg: "#fff",
     date: "Декабрь 2016 — март 2021",
     link: "#",
@@ -162,7 +162,7 @@ export const experiences = [
       "Разработаны плагины для Wordpress для веб-сайта УФК",
       "Разработана, внедрена и протестирована автоматизированная информационная система WebJira на языке PHP с использованием фреймворка EXTJS",
     ],
-    icon: "../src/assets/images/logo-ufk.png",
+    icon: ".../src/assets/images/logo-ufk.png",
     iconBg: "#fff",
     date: "Декабрь 2014 — ноябрь 2015",
     link: "#",
@@ -170,10 +170,10 @@ export const experiences = [
 ];
 
 export const certificates = [
-  { id: 1, title: "Certificate 1", imageUrl: "../src/assets/cert-img-01.jpg" },
-  { id: 2, title: "Certificate 2", imageUrl: "../src/assets/cert-img-02.jpg" },
-  { id: 3, title: "Certificate 3", imageUrl: "../src/assets/cert-img-03.jpg" },
-  { id: 4, title: "Certificate 4", imageUrl: "../src/assets/cert-img-04.jpg" },
+  { id: 1, title: "Certificate 1", imageUrl: ".../src/assets/cert-img-01.jpg" },
+  { id: 2, title: "Certificate 2", imageUrl: ".../src/assets/cert-img-02.jpg" },
+  { id: 3, title: "Certificate 3", imageUrl: ".../src/assets/cert-img-03.jpg" },
+  { id: 4, title: "Certificate 4", imageUrl: ".../src/assets/cert-img-04.jpg" },
 ];
 
 export const faqs = [
@@ -192,31 +192,31 @@ export const faqs = [
 ];
 
 export const techItems = [
-  { name: "HTML 5", icon: "../src/assets/icons/skills01.png" },
-  { name: "CSS 3", icon: "../src/assets/icons/skills02.png" },
-  { name: "JS", icon: "../src/assets/icons/skills03_1.png" },
-  { name: "JQuery", icon: "../src/assets/icons/skills04.png" },
-  { name: "Gulp", icon: "../src/assets/icons/skills05.png" },
-  { name: "SASS", icon: "../src/assets/icons/skills06.png" },
-  { name: "Bootstrap", icon: "../src/assets/icons/skills07.png" },
-  { name: "Figma", icon: "../src/assets/icons/skills08.png" },
-  { name: "React", icon: "../src/assets/icons/skills09.png" },
-  { name: "TypeScript", icon: "../src/assets/icons/skills10.png" },
-  { name: "Tailwind", icon: "../src/assets/icons/skills11.png" },
-  { name: "NPM", icon: "../src/assets/icons/skills12.png" },
-  { name: "Node JS", icon: "../src/assets/icons/skills13.png" },
-  { name: "Vite", icon: "../src/assets/icons/skills14.png" },
-  { name: "PHP", icon: "../src/assets/icons/skills15_1.png" },
-  { name: "MySQL", icon: "../src/assets/icons/skills16.png" },
-  { name: "Git", icon: "../src/assets/icons/skills17.png" },
-  { name: "Github", icon: "../src/assets/icons/skills18.png" },
-  { name: "VS Code", icon: "../src/assets/icons/skills24.png" },
-  { name: "Photoshop", icon: "../src/assets/icons/skills27.png" },
+  { name: "HTML 5", icon: ".../src/assets/icons/skills01.png" },
+  { name: "CSS 3", icon: ".../src/assets/icons/skills02.png" },
+  { name: "JS", icon: ".../src/assets/icons/skills03_1.png" },
+  { name: "JQuery", icon: ".../src/assets/icons/skills04.png" },
+  { name: "Gulp", icon: ".../src/assets/icons/skills05.png" },
+  { name: "SASS", icon: ".../src/assets/icons/skills06.png" },
+  { name: "Bootstrap", icon: ".../src/assets/icons/skills07.png" },
+  { name: "Figma", icon: ".../src/assets/icons/skills08.png" },
+  { name: "React", icon: ".../src/assets/icons/skills09.png" },
+  { name: "TypeScript", icon: ".../src/assets/icons/skills10.png" },
+  { name: "Tailwind", icon: ".../src/assets/icons/skills11.png" },
+  { name: "NPM", icon: ".../src/assets/icons/skills12.png" },
+  { name: "Node JS", icon: ".../src/assets/icons/skills13.png" },
+  { name: "Vite", icon: ".../src/assets/icons/skills14.png" },
+  { name: "PHP", icon: ".../src/assets/icons/skills15_1.png" },
+  { name: "MySQL", icon: ".../src/assets/icons/skills16.png" },
+  { name: "Git", icon: ".../src/assets/icons/skills17.png" },
+  { name: "Github", icon: ".../src/assets/icons/skills18.png" },
+  { name: "VS Code", icon: ".../src/assets/icons/skills24.png" },
+  { name: "Photoshop", icon: ".../src/assets/icons/skills27.png" },
 ];
 
 export const reviews = [
   {
-    image: "../../src/assets/man-review-01.jpg",
+    image: "../.../src/assets/man-review-01.jpg",
     name: "Александр Панфилов",
     position: "Генеральный директор ООО «МВЭЙВ»",
     project: "emwave.ru",
@@ -227,7 +227,7 @@ export const reviews = [
   },
   {
     review: "Благодарим за проделанную работу по созданию корпоративного сайта",
-    image: "../../src/assets/man-review-02.jpg",
+    image: "../.../src/assets/man-review-02.jpg",
     name: "Дмитрий Зайцев",
     position: "Генеральный директор ОАО Homnet",
     rating: 5,
@@ -237,7 +237,7 @@ export const reviews = [
   {
     review:
       "С достоинством справился с задачей создания сайта с нуля, который бы сочетал в себе функциональность, современный дизайн, легкость в администрировании сайта. В итоге цели проекта были реализованы по согласованным графикам и в полном объеме.",
-    image: "../../src/assets/man-review-03.jpg",
+    image: "../.../src/assets/man-review-03.jpg",
     name: "Илья Проскурин",
     position: "Исполнительный директор Rostell",
     rating: 5,
@@ -247,7 +247,7 @@ export const reviews = [
   {
     review:
       "Я очень доволен работой исполнителя и рекомендую его для создания сайтов любой сложности. Большое спасибо за вашу помощь и проделанную работу!",
-    image: "../../src/assets/man-review-04.jpg",
+    image: "../.../src/assets/man-review-04.jpg",
     name: "Денис Феофанов",
     position: "Директор компании Рубеж",
     rating: 5,
@@ -257,7 +257,7 @@ export const reviews = [
   {
     review:
       "Особенно хотели бы отметить высокую скорость запуска работы над проектом, оперативность и готовность быстро реагировать на изменение обстоятельств. Отдельно хочется поблагодарить за профессионализм, терпение и персональный подход",
-    image: "../../src/assets/man-review-05.jpg",
+    image: "../.../src/assets/man-review-05.jpg",
     name: "Иван Лавров",
     position: "Генеральный директор компании Звук",
     rating: 5,
@@ -267,7 +267,7 @@ export const reviews = [
   {
     review:
       "Большой опыт и профессионализм в разработке сайтов, компетентность, быстрое решение проблем, возникающих в ходе работы, ответственность и доброжелательность, оперативная техническая поддержка в работе с уже запущенным сайтом сделали наше сотрудничество плодотворным и эффективным. Желаем успехов в профессиональной деятельности!",
-    image: "../../src/assets/man-review-06.jpg",
+    image: "../.../src/assets/man-review-06.jpg",
     name: "Елизавета Голубева",
     position: "Генеральный директор ООО Мираж",
     rating: 5,
@@ -277,7 +277,7 @@ export const reviews = [
   {
     review:
       "Лучший веб-разработчик в России, с которым мне когда-либо приходилось работать. Сильные стороны: Индивидуальный подход. Талантливое воплощение идей заказчика. Соблюдение сроков. Если и были правки — то вносились быстро и четко. Слабых сторон не замечено.",
-    image: "../../src/assets/man-review-07.jpg",
+    image: "../.../src/assets/man-review-07.jpg",
     name: "Любовь Карелина",
     position: "Генеральный директор ООО БукваЛенд",
     rating: 5,
@@ -395,12 +395,12 @@ export const projects = [
     dateEnd: "07.07.2024",
     technologies: ["Html", "Css", "Js", "Jquery"],
     images: {
-      desktop: "./src/assets/images/project-img-024.png",
-      mobile: "./src/assets/project-img-01-1.png",
+      desktop: "../src/assets/images/project-img-024.png",
+      mobile: "../src/assets/project-img-01-1.png",
       gallery: [
-        "./src/assets/images/project-img-026.png",
-        "./src/assets/images/project-img-026.png",
-        "./src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
       ],
     },
     codeSnippet: `<button className="bg-purple-500 text-white px-4 py-2 rounded">Hello</button>`,
@@ -430,12 +430,12 @@ export const projects = [
     dateEnd: "02.05.2024",
     technologies: ["Html", "Css", "Js", "Jquery"],
     images: {
-      desktop: "./src/assets/images/project-img-01.png",
-      mobile: "./src/assets/project-img-01-1.png",
+      desktop: "../src/assets/images/project-img-01.png",
+      mobile: "../src/assets/project-img-01-1.png",
       gallery: [
-        "./src/assets/images/project-img-026.png",
-        "./src/assets/images/project-img-026.png",
-        "./src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
       ],
     },
     codeSnippet: `<button className="bg-purple-500 text-white px-4 py-2 rounded">Hello</button>`,
@@ -459,13 +459,13 @@ export const projects = [
     dateEnd: "02.05.2024",
     technologies: ["Html", "React", "Tailwind"],
     images: {
-      desktop: "./src/assets/images/project-img-023.png",
-      mobile: "./src/assets/project-img-01-1.png",
+      desktop: "../src/assets/images/project-img-023.png",
+      mobile: "../src/assets/project-img-01-1.png",
       gallery: [
-        "./src/assets/project-img-1.png",
-        "./src/assets/project-img-2.png",
-        "./src/assets/images/project-img-023.png",
-        "./src/assets/project-img-4.png",
+        "../src/assets/project-img-1.png",
+        "../src/assets/project-img-2.png",
+        "../src/assets/images/project-img-023.png",
+        "../src/assets/project-img-4.png",
       ],
     },
     codeSnippet: `<button className="bg-purple-500 text-white px-4 py-2 rounded">Hello</button>`,
@@ -488,14 +488,14 @@ export const projects = [
       "Реализация тикет-системы онлайн бронирования билетов в кинотеатр на HTML, React, Tailwind CSS",
       "Реализация всего процесса бронирования от выбора даты, времени, места до процесса покупки билета",
     ],
-    image: "./src/assets/images/project-img-026.png",
-    image2: "./src/assets/project1-1.png",
+    image: "../src/assets/images/project-img-026.png",
+    image2: "../src/assets/project1-1.png",
     tech: ["Html", "React", "Tailwind"],
     images: [
-      "./src/assets/project-img-1.png",
-      "./src/assets/project-img-2.png",
-      "./src/assets/project-img-3.png",
-      "./src/assets/project-img-4.png",
+      "../src/assets/project-img-1.png",
+      "../src/assets/project-img-2.png",
+      "../src/assets/project-img-3.png",
+      "../src/assets/project-img-4.png",
     ],
     descriptions: [
       "Верстка сайта для ведущего производителя микроэлектроники в России",
@@ -520,15 +520,15 @@ export const projects = [
     details2: [
       "Верстка сайта ветеринарной клиники на HTML5, CSS3 (SASS), JS (Jquery) с ипользованием Gulp",
     ],
-    image: "./src/assets/images/project-img-026.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/images/project-img-026.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "Sass", "Js", "Jquery", "Gulp"],
     images: [
-      "./src/assets/project-img-01.png",
-      "./src/assets/project-img-02.png",
-      "./src/assets/project-img-03.png",
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-05.png",
+      "../src/assets/project-img-01.png",
+      "../src/assets/project-img-02.png",
+      "../src/assets/project-img-03.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-05.png",
     ],
     descriptions: [
       "Верстка сайта для ведущего производителя микроэлектроники в России",
@@ -553,16 +553,16 @@ export const projects = [
     details2: [
       "Верстка сайта логистических услуг на HTML5, CSS3 (SASS), JS (Jquery)",
     ],
-    image: "./src/assets/images/project-img-026.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/images/project-img-026.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "Sass", "Js", "Jquery"],
     images: [
-      "./src/assets/project-img-01.png",
-      "./src/assets/project-img-02.png",
-      "./src/assets/project-img-03.png",
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-05.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-01.png",
+      "../src/assets/project-img-02.png",
+      "../src/assets/project-img-03.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-05.png",
+      "../src/assets/project-img-06.png",
     ],
     descriptions: [
       "Верстка сайта для ведущего производителя микроэлектроники в России",
@@ -587,12 +587,12 @@ export const projects = [
     details2: [
       "Верстка сайта ЖК Возрождение на HTML5, CSS3 (SASS), JS (Jquery)",
     ],
-    image: "./src/assets/images/project-img-026.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/images/project-img-026.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "Sass", "Js", "Jquery"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
   {
@@ -609,12 +609,12 @@ export const projects = [
     details2: [
       "Верстка сайта медицинского центра на HTML5, CSS3 (SASS), JS (Jquery)",
     ],
-    image: "./src/assets/images/project-img-026.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/images/project-img-026.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "Sass", "Js", "Jquery"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
   {
@@ -631,12 +631,12 @@ export const projects = [
     details2: [
       "Верстка интернет-магазина по продаже электро-байков на React, Tailwind",
     ],
-    image: "./src/assets/plug-project.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/plug-project.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["React", "Tailwind"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
   {
@@ -653,12 +653,12 @@ export const projects = [
     details2: [
       "Разработка финансового dashboarda на TypeScript, Tailwind, NextJs",
     ],
-    image: "./src/assets/plug-project.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/plug-project.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["TypeScript", "Tailwind", "NodeJS", "NextJS"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
    {
@@ -670,12 +670,12 @@ export const projects = [
     github_link: "https://github.com/odswebdev",
     live_link: "https://emwave.ru",
     description: "Разработка чата",
-    image: "./src/assets/plug-project.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/plug-project.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "NodeJS"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
   {
@@ -687,12 +687,12 @@ export const projects = [
     github_link: "https://github.com/odswebdev",
     live_link: "https://emwave.ru",
     description: "Разработка веб-приложения",
-    image: "./src/assets/plug-project.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/plug-project.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "NodeJS"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
   {
@@ -704,12 +704,12 @@ export const projects = [
     github_link: "https://github.com/odswebdev",
     live_link: "https://emwave.ru",
     description: "Разработка веб-приложения",
-    image: "./src/assets/plug-project.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/plug-project.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "NodeJS"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   },
   {
@@ -721,20 +721,20 @@ export const projects = [
     github_link: "https://github.com/odswebdev",
     live_link: "https://emwave.ru",
     description: "Разработка моб. приложение",
-    image: "./src/assets/plug-project.png",
-    image2: "./src/assets/project-img-01-1.png",
+    image: "../src/assets/plug-project.png",
+    image2: "../src/assets/project-img-01-1.png",
     tech: ["HTML", "CSS", "NodeJS"],
     images: [
-      "./src/assets/project-img-04.png",
-      "./src/assets/project-img-06.png",
+      "../src/assets/project-img-04.png",
+      "../src/assets/project-img-06.png",
     ],
   }, */
 ];
 
 export const projects2 = [
   {
-    image: "./src/assets/images/project-img-026.png",
-    image2: "./src/assets/project1-1.png",
+    image: "../src/assets/images/project-img-026.png",
+    image2: "../src/assets/project1-1.png",
     id: 1,
     category: "Коммерческие",
     subcategory: "CMS",
@@ -742,12 +742,12 @@ export const projects2 = [
     description: "Проект на CMS с индивидуальными доработками",
     technologies: ["React", "Tailwind", "Redux"],
     images: {
-      desktop: "./src/assets/images/project-img-026.png",
-      mobile: "./src/assets/images/project-img-026.png",
+      desktop: "../src/assets/images/project-img-026.png",
+      mobile: "../src/assets/images/project-img-026.png",
       gallery: [
-        "./src/assets/images/project-img-026.png",
-        "./src/assets/images/project-img-026.png",
-        "./src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
+        "../src/assets/images/project-img-026.png",
       ],
     },
     codeSnippet: `<button className="bg-purple-500 text-white px-4 py-2 rounded">Hello</button>`,

@@ -93,7 +93,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         whileInView="visible"
       >
         <Link to="/">
-          <img src="../src/assets/logo.png" />
+          <img src=".../src/assets/logo.png" />
         </Link>
         <span className="navbar__logo-text">
           <a href="/">
