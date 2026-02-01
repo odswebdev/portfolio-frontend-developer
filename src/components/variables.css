@@ -1,0 +1,1178 @@
+:root {
+  --theme-text: var(--themeSpace-text);
+  --theme-border: var(--themeSpace-border);
+  --theme-hover: var(--themeSpace-hover);
+  --theme-gradient: var(--themeSpace-bg);
+  --scrollbar-thumb-color: #0fc;
+  --scrollbar-track-color: #fff;
+}
+
+/* Тема Астронавт */
+
+.themeAstronaut {
+  --theme-text: #fff;
+  --theme-border: #fff;
+  --theme-hover: #0fc;
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+  --scrollbar-thumb-color: #0fc;
+  --scrollbar-track-color: #fff;
+
+  --theme-icon-bg: #fff;
+
+  --theme-bg-dd: linear-gradient(
+    90deg,
+    rgba(0, 255, 204, 0.4),
+    rgba(0, 255, 204, 0.4),
+    rgba(0, 255, 204, 0.4)
+  );
+}
+
+/* Тема Космос */
+
+.themeSpace {
+  --theme-text: #fff;
+  --theme-border: #fff;
+  --theme-hover: #0fc;
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+
+  --scrollbar-thumb-color: #0fc !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #fff !important; /* Цвет фона скроллбара */
+
+  --theme-icon-bg: #fff;
+}
+
+/* +++ */
+/* Expresso */
+
+.theme-gradient5 {
+  --theme-text: #f0f0f0; /* Текст */
+  --theme-heading: #ffc107; /* Заголовки */
+  --theme-border: #ffc107; /* Границы */
+  --theme-hover: #ffc107; /* Цвет при наведении */
+  --theme-bs: #ffc107; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ffc107,
+    #ffc107
+  ); /* Цвет вкладок */
+  --scrollbar-thumb-color: #ffc107 !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+  --theme-bg-tab: #ffc107;
+
+  /*  --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #0f7f7f, #2f7f7f); */
+}
+
+.themeBrownBlackGr {
+  --theme-text: #ffffff;
+  --theme-border: #9b4dca;
+  --theme-hover: #9b4dca;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #ffb147;
+  --theme-bs: #9b4dca;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+
+  --theme-icon-bg: #fff;
+
+  --scrollbar-thumb-color: #9b4dca !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff !important; /* Цвет фона скроллбара */
+
+  --theme-bg-dd: linear-gradient(
+    90deg,
+    rgba(155, 77, 202, 0.8),
+    rgba(155, 77, 202, 0.6),
+    rgba(155, 77, 202, 0.4)
+  );
+}
+
+.themeRoseOrangeGr {
+  --theme-text: #ffffff;
+  --theme-border: #9b4dca;
+  --theme-hover: #9b4dca;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #9b4dca;
+  --theme-bs: #9b4dca;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #9b4dca;
+  --theme-f: #e44;
+  --theme-bg-dd: linear-gradient(
+    90deg,
+    rgba(155, 77, 202, 0.8),
+    rgba(155, 77, 202, 0.6),
+    rgba(155, 77, 202, 0.4)
+  );
+
+  --scrollbar-thumb-color: #9b4dca !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff !important; /* Цвет фона скроллбара */
+
+  --theme-icon-bg: #ffffff;
+}
+
+/* .themeBlueLineGr {
+  --theme-text: #ffffff;
+  --theme-border: #0fc;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+  --scrollbar-thumb-color: #0fc;
+  --scrollbar-track-color: #fff;
+
+  --theme-icon-bg: #fff;
+}
+
+.themeBlueBoxGr {
+  --theme-text: #ffffff;
+  --theme-border: #ffa500;
+  --theme-hover: #ffa500;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #ffb147;
+  --theme-bs: #ffa500;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+  --scrollbar-thumb-color: #0fc;
+  --scrollbar-track-color: #fff;
+
+  --theme-icon-bg: #fff;
+} */
+
+.themeMetallLineGr {
+  --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+
+  --theme-icon-bg: #fff;
+
+  --scrollbar-thumb-color: #0fc !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.themeRandomGr {
+  --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+
+  --theme-icon-bg: #fff;
+
+  --scrollbar-thumb-color: #0fc !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.theme-gradient1 {
+  --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #7f7f7f, #7f7f7f);
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+
+  --theme-icon-bg: #fff;
+
+  --scrollbar-thumb-color: #0fc !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.theme-gradient2 {
+  --theme-text: #333333; /* Текст */
+  --theme-heading: #0056b3; /* Заголовки */
+  --theme-border: #b0b0b0; /* Границы */
+  --theme-hover: #007bff; /* Цвет при наведении */
+  --theme-bs: #007bff; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #6a1b9a,
+    #ab47bc
+  ); /* Цвет вкладок */
+  --scrollbar-thumb-color: #0056b3; /* Цвет скроллбара */
+  --scrollbar-track-color: #f1f1f1; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  /*  --theme-text: #738592;
+  --theme-heading: #000;
+  --theme-border: #dcdc;
+  --theme-hover: #e44;
+  --theme-cx: #000;
+  --theme-bs: #e44;
+  --theme-bg-tab: transparent;
+  --scrollbar-thumb-color: #e44;
+  --scrollbar-track-color: #fff; */
+}
+
+.theme-gradient3 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffcc00; /* Заголовки */
+  --theme-border: #ffcc00; /* Границы */
+  --theme-hover: #ff5722; /* Цвет при наведении */
+  --theme-bs: #ff5722; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #03a9f4,
+    #00bcd4
+  ); /* Цвет вкладок */
+  --scrollbar-thumb-color: #ff5722; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  /* --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #0f7f7f, #2f7f7f); */
+}
+
+.theme-gradient4 {
+  --theme-text: #4a4a4a; /* Текст */
+  --theme-heading: #3f51b5; /* Заголовки */
+  --theme-border: #3f51b5; /* Границы */
+  --theme-hover: #8bc34a; /* Цвет при наведении */
+  --theme-bs: #8bc34a; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #2196f3,
+    #64b5f6
+  ); /* Цвет вкладок */
+  --scrollbar-thumb-color: #3f51b5; /* Цвет скроллбара */
+  --scrollbar-track-color: #e0e0e0; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  /*  --theme-text: #ffffff;
+  --theme-border: #ffffff;
+  --theme-hover: #0fc;
+  --theme-gradient: linear-gradient(to right, #0f7f7f, #2f7f7f); */
+}
+
+.themeTextAbstractBlack {
+  /*  Цвет текста */
+  --theme-text: #fff;
+  /*  Цвет границы */
+  --theme-border: #fff;
+  /*  Цвет при наведении */
+  --theme-hover: #0fc;
+  /* Цвет заголовков */
+  --theme-heading: #ffb147;
+  /* Цвет */
+  --theme-bs: #0fc;
+
+  /* Цвет вкладок */
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+
+  /* Цвет скроллбара */
+  --theme-f: #e44;
+  --scrollbar-thumb-color: #2ec;
+  --scrollbar-track-color: #fff;
+
+  /* Цвет иконки */
+  --theme-icon-bg: #fff;
+}
+
+.themeTextAbstractLight {
+  /*  Цвет текста */
+  --theme-text: #4c6472;
+  /*  Цвет границы */
+  --theme-border: #00ffff;
+  /*  Цвет при наведении */
+  --theme-hover: #00ffff;
+  /* Цвет заголовков */
+  --theme-heading: #00ffff;
+  /* Цвет */
+  --theme-bs: #a0aecd;
+
+  /* Цвет вкладок */
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+
+  /* Цвет скроллбара */
+  --theme-f: #e44;
+
+  /* Цвет иконки */
+  --theme-icon-bg: #4c6472;
+
+  --scrollbar-thumb-color: #00ffff !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.themeTextWaveBlue {
+  /*  Цвет текста */
+  --theme-text: #fff;
+  /*  Цвет границы */
+  --theme-border: #fff;
+  /*  Цвет при наведении */
+  --theme-hover: #0fc;
+  /* Цвет заголовков */
+  --theme-heading: #ffb147;
+  /* Цвет */
+  --theme-bs: #0fc;
+
+  /* Цвет вкладок */
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+
+  /* Цвет скроллбара */
+  --theme-f: #e44;
+  --scrollbar-thumb-color: #0fc;
+  --scrollbar-track-color: #fff;
+
+  /* Цвет иконки */
+  --theme-icon-bg: #fff;
+
+  --scrollbar-thumb-color: #0fc !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+/* +++ */
+
+.theme-image1 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffcc00; /* Заголовки */
+  --theme-border: #ffcc00; /* Границы */
+  --theme-hover: #76ff03; /* Цвет при наведении */
+  --theme-bs: #76ff03; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #4caf50,
+    #81c784
+  ); /* Цвет вкладок */
+  --scrollbar-thumb-color: #ffcc00; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  /*  --theme-text: #a200ff;
+  --theme-border: #a200ff;
+  --theme-hover: #bbff00;
+  --theme-gradient: linear-gradient(to right, #0f7f7f, #2f7f7f); */
+}
+
+/* .theme-image3 {
+  --theme-text: #111; 
+  --theme-heading: #111;
+  --theme-border: transparent;
+  --theme-hover: #ffeb3b;
+  --theme-bs: #ffeb3b;
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #263238,
+    #37474f
+  );
+  --scrollbar-thumb-color: #ff5722;
+  --scrollbar-track-color: #37474f;
+  --theme-icon-bg: #111;
+  --theme-bs: #111;
+} */
+
+.theme-image4 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #388e3c; /* Заголовки */
+  --theme-border: #388e3c; /* Границы */
+  --theme-hover: #ffeb3b; /* Цвет при наведении */
+  --theme-bs: #ffeb3b; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #8bc34a,
+    #cddc39
+  ); /* Цвет вкладок */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  --scrollbar-thumb-color: #388e3c !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.theme-image5 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffff00; /* Заголовки */
+  --theme-border: #ffff00; /* Границы */
+  --theme-hover: #ffff00; /* Цвет при наведении */
+  --theme-bs: #ffff00; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #00796b,
+    #004d40
+  ); /* Цвет вкладок */
+  --theme-bg-tab: #ffff00;
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  --scrollbar-thumb-color: #ffff00 !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.theme-image6 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffd700; /* Заголовки */
+  --theme-border: #9370db; /* Границы */
+  --theme-hover: #9370db; /* Цвет при наведении */
+  --theme-bs: #9370db; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #00796b,
+    #004d40
+  ); /* Цвет вкладок */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  --scrollbar-thumb-color: #9370db !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+}
+
+.theme-image7 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffd700; /* Заголовки */
+  --theme-border: #00acc1; /* Границы */
+  --theme-hover: #00acc1; /* Цвет при наведении */
+  --theme-bs: #00acc1; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #00796b,
+    #004d40
+  ); /* Цвет вкладок */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+  --theme-bg-tab: #00acc1;
+
+  --scrollbar-thumb-color: #00acc1 !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff !important; /* Цвет фона скроллбара */
+}
+
+.theme-video1 {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffd700; /* Заголовки */
+  --theme-border: #9b4dca; /* Границы */
+  --theme-hover: #9b4dca; /* Цвет при наведении */
+  --theme-bs: #9b4dca; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(to right, #00796b, #004d40);
+  --theme-bg-tab: #9b4dca;
+
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  --scrollbar-thumb-color: #9b4dca !important; /* Цвет скроллбара */
+  --scrollbar-track-color: #3c1053 !important; /* Цвет фона скроллбара */
+
+  /* --theme-text: #fff;
+  --theme-border: #fff;
+  --theme-hover: #0fc; */
+}
+
+/* .theme-video2 {
+  --theme-text: #fff;
+  --theme-border: #fff;
+  --theme-hover: #0fc;
+} */
+
+.theme-dark-squad {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffcc00; /* Заголовки */
+  --theme-border: #ffcc00; /* Границы */
+  --theme-hover: #76ff03; /* Цвет при наведении */
+  --theme-bs: #76ff03; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #4caf50,
+    #81c784
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #121212,
+    #1a1a1a
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ffcc00; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-pastel-soft {
+  --theme-text: #3e2723; /* Текст */
+  --theme-heading: #ff6f00; /* Заголовки */
+  --theme-border: #d7ccc8; /* Границы */
+  --theme-hover: #f57f17; /* Цвет при наведении */
+  --theme-bs: #f57f17; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ffe082,
+    #ffcc80
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #fce4ec,
+    #f8bbd0
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff6f00; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-rich-tones {
+  --theme-text: #f5f5f5; /* Текст */
+  --theme-heading: #ff5722; /* Заголовки */
+  --theme-border: #ff5722; /* Границы */
+  --theme-hover: #ffeb3b; /* Цвет при наведении */
+  --theme-bs: #ffeb3b; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #263238,
+    #37474f
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #212121,
+    #424242
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff5722; /* Цвет скроллбара */
+  --scrollbar-track-color: #37474f; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-natural-colors {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #388e3c; /* Заголовки */
+  --theme-border: #388e3c; /* Границы */
+  --theme-hover: #ffeb3b; /* Цвет при наведении */
+  --theme-bs: #ffeb3b; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #8bc34a,
+    #cddc39
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #f0f4c3,
+    #c5e1a5
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #388e3c; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-sea-atmosphere {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #00695c; /* Заголовки */
+  --theme-border: #004d40; /* Границы */
+  --theme-hover: #00acc1; /* Цвет при наведении */
+  --theme-bs: #00acc1; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #00796b,
+    #004d40
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #e0f7fa,
+    #80deea
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #00695c; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffffff; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-space {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #f50057; /* Заголовки */
+  --theme-border: #f50057; /* Границы */
+  --theme-hover: #ffeb3b; /* Цвет при наведении */
+  --theme-bs: #ffeb3b; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #3f51b5,
+    #1a237e
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #000000,
+    #3f51b5
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #f50057; /* Цвет скроллбара */
+  --scrollbar-track-color: #424242; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-fruity {
+  --theme-text: #212121; /* Текст */
+  --theme-heading: #ff6f00; /* Заголовки */
+  --theme-border: #ff6f00; /* Границы */
+  --theme-hover: #ffeb3b; /* Цвет при наведении */
+  --theme-bs: #ffeb3b; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ff5252,
+    #ff1744
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ffccbc,
+    #ffab91
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff6f00; /* Цвет скроллбара */
+  --scrollbar-track-color: #f5f5f5; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-deep-forest {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #c5e1a5; /* Заголовки */
+  --theme-border: #c5e1a5; /* Границы */
+  --theme-hover: #ffcc00; /* Цвет при наведении */
+  --theme-bs: #ffcc00; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #2e7d32,
+    #a5d6a7
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #1b5e20,
+    #4caf50
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #c5e1a5; /* Цвет скроллбара */
+  --scrollbar-track-color: #2e7d32; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-warm-sunset {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ff9800; /* Заголовки */
+  --theme-border: #ff9800; /* Границы */
+  --theme-hover: #f44336; /* Цвет при наведении */
+  --theme-bs: #f44336; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ff8f00,
+    #ff3d00
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ff6f20,
+    #ff9e80
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff9800; /* Цвет скроллбара */
+  --scrollbar-track-color: #f44336; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-nature-harmony {
+  --theme-text: #2e2e2e; /* Текст */
+  --theme-heading: #4caf50; /* Заголовки */
+  --theme-border: #4caf50; /* Границы */
+  --theme-hover: #ff5722; /* Цвет при наведении */
+  --theme-bs: #ff5722; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #b2dfdb,
+    #00796b
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #e0f7fa,
+    #a5d6a7
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #4caf50; /* Цвет скроллбара */
+  --scrollbar-track-color: #e0f2f1; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-quiet-ocean {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #00bcd4; /* Заголовки */
+  --theme-border: #00bcd4; /* Границы */
+  --theme-hover: #ff9800; /* Цвет при наведении */
+  --theme-bs: #ff9800; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #e0f7fa,
+    #80deea
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #0097a7,
+    #80deea
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #00bcd4; /* Цвет скроллбара */
+  --scrollbar-track-color: #e0f2f1; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-warm-lights {
+  --theme-text: #2c3e50; /* Текст */
+  --theme-heading: #e67e22; /* Заголовки */
+  --theme-border: #e67e22; /* Границы */
+  --theme-hover: #f1c40f; /* Цвет при наведении */
+  --theme-bs: #f1c40f; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #f39c12,
+    #e67e22
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #d35400,
+    #f39c12
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #e67e22; /* Цвет скроллбара */
+  --scrollbar-track-color: #f3e5ab; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-winter-chill {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #03a9f4; /* Заголовки */
+  --theme-border: #03a9f4; /* Границы */
+  --theme-hover: #ff4081; /* Цвет при наведении */
+  --theme-bs: #ff4081; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #e1f5fe,
+    #81d4fa
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #1976d2,
+    #90caf9
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #03a9f4; /* Цвет скроллбара */
+  --scrollbar-track-color: #e1f5fe; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-sunny-fields {
+  --theme-text: #3e2723; /* Текст */
+  --theme-heading: #ffeb3b; /* Заголовки */
+  --theme-border: #ffeb3b; /* Границы */
+  --theme-hover: #ff5722; /* Цвет при наведении */
+  --theme-bs: #ff5722; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ff9800,
+    #ffc107
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ffeb3b,
+    #ffe082
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ffeb3b; /* Цвет скроллбара */
+  --scrollbar-track-color: #fff9c4; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-mountain-dawn {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #d5006d; /* Заголовки */
+  --theme-border: #d5006d; /* Границы */
+  --theme-hover: #ff8f00; /* Цвет при наведении */
+  --theme-bs: #ff8f00; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #8e24aa,
+    #d5006d
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #6a1b9a,
+    #ab47bc
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #d5006d; /* Цвет скроллбара */
+  --scrollbar-track-color: #f8bbd0; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-mysterious-space {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ffcc00; /* Заголовки */
+  --theme-border: #ffcc00; /* Границы */
+  --theme-hover: #ff4081; /* Цвет при наведении */
+  --theme-bs: #ff4081; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #673ab7,
+    #3f51b5
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #1a237e,
+    #2196f3
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ffcc00; /* Цвет скроллбара */
+  --scrollbar-track-color: #b0bec5; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-forest-mystery {
+  --theme-text: #1b5e20; /* Текст */
+  --theme-heading: #4caf50; /* Заголовки */
+  --theme-border: #4caf50; /* Границы */
+  --theme-hover: #8bc34a; /* Цвет при наведении */
+  --theme-bs: #8bc34a; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #c8e6c9,
+    #a5d6a7
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #2e7d32,
+    #66bb6a
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #4caf50; /* Цвет скроллбара */
+  --scrollbar-track-color: #c8e6c9; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-bright-fantasy {
+  --theme-text: #000000; /* Текст */
+  --theme-heading: #ff5722; /* Заголовки */
+  --theme-border: #ff5722; /* Границы */
+  --theme-hover: #ffc107; /* Цвет при наведении */
+  --theme-bs: #ffc107; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ffeb3b,
+    #ff9800
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ff5252,
+    #ff4081
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff5722; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffe082; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-night-symphony {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #673ab7; /* Заголовки */
+  --theme-border: #673ab7; /* Границы */
+  --theme-hover: #ff4081; /* Цвет при наведении */
+  --theme-bs: #ff4081; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #9c27b0,
+    #673ab7
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #3e2723,
+    #4a148c
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #673ab7; /* Цвет скроллбара */
+  --scrollbar-track-color: #d1c4e9; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-fairy-flowers {
+  --theme-text: #4a148c; /* Текст */
+  --theme-heading: #ff4081; /* Заголовки */
+  --theme-border: #ff4081; /* Границы */
+  --theme-hover: #ffab40; /* Цвет при наведении */
+  --theme-bs: #ffab40; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #f48fb1,
+    #f06292
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #e91e63,
+    #f06292
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff4081; /* Цвет скроллбара */
+  --scrollbar-track-color: #f8bbd0; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-warm-evening {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ff5722; /* Заголовки */
+  --theme-border: #ff5722; /* Границы */
+  --theme-hover: #ffccbc; /* Цвет при наведении */
+  --theme-bs: #ffccbc; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ff9800,
+    #ffcc80
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ff7043,
+    #ffcc80
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff5722; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffe0b2; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-eternal-autumn {
+  --theme-text: #3e2723; /* Текст */
+  --theme-heading: #d84315; /* Заголовки */
+  --theme-border: #d84315; /* Границы */
+  --theme-hover: #ffb74d; /* Цвет при наведении */
+  --theme-bs: #ffb74d; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ffccbc,
+    #ff8a65
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #bf360c,
+    #d84315
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #d84315; /* Цвет скроллбара */
+  --scrollbar-track-color: #fbe9e7; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-light-rainbow {
+  --theme-text: #000000; /* Текст */
+  --theme-heading: #ff4081; /* Заголовки */
+  --theme-border: #ff4081; /* Границы */
+  --theme-hover: #00bcd4; /* Цвет при наведении */
+  --theme-bs: #00bcd4; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #f8bbd0,
+    #f0f4c3
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ff5252,
+    #ffeb3b,
+    #4caf50,
+    #2196f3
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff4081; /* Цвет скроллбара */
+  --scrollbar-track-color: #e0f7fa; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-fire-sunset {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #ff5722; /* Заголовки */
+  --theme-border: #ff5722; /* Границы */
+  --theme-hover: #ffc107; /* Цвет при наведении */
+  --theme-bs: #ffc107; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ff9800,
+    #ff5722
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ff6f00,
+    #ff9800,
+    #ff5722
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ff5722; /* Цвет скроллбара */
+  --scrollbar-track-color: #ffe0b2; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-cool-pomegranate {
+  --theme-text: #2c3e50; /* Текст */
+  --theme-heading: #c0392b; /* Заголовки */
+  --theme-border: #c0392b; /* Границы */
+  --theme-hover: #e74c3c; /* Цвет при наведении */
+  --theme-bs: #e74c3c; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #d35400,
+    #c0392b
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #8e44ad,
+    #c0392b
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #c0392b; /* Цвет скроллбара */
+  --scrollbar-track-color: #f1c40f; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+
+  /*  --hero-bg: url("/src/assets/photos/abstract/abstract-astronaut.jpg");
+  --general-bg: url("/src/assets/photos/abstract/abstract-astronaut-snap.jpg"); */
+}
+
+.theme-sunny-softness {
+  --theme-text: #000000; /* Текст */
+  --theme-heading: #ffb74d; /* Заголовки */
+  --theme-border: #ffb74d; /* Границы */
+  --theme-hover: #ffd54f; /* Цвет при наведении */
+  --theme-bs: #ffd54f; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #ffecb3,
+    #ffb74d
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ffeb3b,
+    #ffb74d
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ffb74d; /* Цвет скроллбара */
+  --scrollbar-track-color: #fffde7; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-night-secret {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #3e2723; /* Заголовки */
+  --theme-border: #3e2723; /* Границы */
+  --theme-hover: #ff9800; /* Цвет при наведении */
+  --theme-bs: #ff9800; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #5d4037,
+    #3e2723
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #212121,
+    #424242
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #3e2723; /* Цвет скроллбара */
+  --scrollbar-track-color: #cfd8dc; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-moonlight-glow {
+  --theme-text: #f5f5f5; /* Текст */
+  --theme-heading: #00bcd4; /* Заголовки */
+  --theme-border: #00bcd4; /* Границы */
+  --theme-hover: #4dd0e1; /* Цвет при наведении */
+  --theme-bs: #4dd0e1; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #80deea,
+    #00bcd4
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #00695c,
+    #004d40
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #00bcd4; /* Цвет скроллбара */
+  --scrollbar-track-color: #e0f7fa; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-winter-tale {
+  --theme-text: #ffffff; /* Текст */
+  --theme-heading: #2196f3; /* Заголовки */
+  --theme-border: #2196f3; /* Границы */
+  --theme-hover: #bbdefb; /* Цвет при наведении */
+  --theme-bs: #bbdefb; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #bbdefb,
+    #90caf9
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #0d47a1,
+    #1976d2
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #2196f3; /* Цвет скроллбара */
+  --scrollbar-track-color: #e1f5fe; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.theme-vibrant-summer {
+  --theme-text: #000000; /* Текст */
+  --theme-heading: #ffeb3b; /* Заголовки */
+  --theme-border: #ffeb3b; /* Границы */
+  --theme-hover: #ff6f20; /* Цвет при наведении */
+  --theme-bs: #ff6f20; /* Цвет кнопок */
+  --theme-bg-tab: linear-gradient(
+    to right,
+    #fce4ec,
+    #ffeb3b
+  ); /* Цвет вкладок */
+  --theme-gradient: linear-gradient(
+    to right,
+    #ff8f00,
+    #ffd740
+  ); /* Фоновый градиент */
+  --scrollbar-thumb-color: #ffeb3b; /* Цвет скроллбара */
+  --scrollbar-track-color: #fffde7; /* Цвет фона скроллбара */
+  --theme-icon-bg: #ffffff; /* Цвет иконок */
+}
+
+.themeElectricFlashes {
+  --theme-gradient: linear-gradient(to right, #feb47b, #feb47b);
+  --theme-animation: 10s infinite alternate;
+}
+
+.themeMouseColor {
+  --theme-gradient: linear-gradient(to right, #ff7e5f, #feb47b);
+  --theme-animation: 10s infinite alternate;
+}
+
+@keyframes mouseColorAnimation {
+  0% {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    background: rgba(255, 0, 0, 0.5);
+  }
+}
+
+.themeWaterfallShinyDrops {
+  background-color: black; /* Фон */
+  position: relative;
+  z-index: 9999; /* Поверх других элементов */
+  overflow: hidden; /* Чтобы капли не выходили за пределы экрана */
+}
+
+.themeFogEffect {
+  /*  --theme-gradient: linear-gradient(to right, #000, #000);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  pointer-events: none; */
+}
+
+.themeAstronaut2 {
+  --theme-text: #fff;
+  --theme-border: #fff;
+  --theme-hover: #0fc;
+  --theme-heading: #ffb147;
+  --theme-bs: #0fc;
+  --theme-bg-tab: linear-gradient(to right, #ff416c, #ff4b2b);
+  --theme-bg-tab: #ffb147;
+  --theme-f: #e44;
+  --scrollbar-thumb-color: #0fc;
+  --scrollbar-track-color: #fff;
+
+  --theme-icon-bg: #fff;
+
+  --header-hero-bg: url("/src/assets/photos/abstract/abstract-astronaut.jpg");
+  --section-bg: url("/src/assets/photos/abstract/abstract-astronaut-snap.jpg");
+}
