@@ -858,34 +858,31 @@ export const projects2 = [
 ];
 
 
-
-
-
 // src/data/projects.js
 export const projects3 = [
   {
     id: '1',
-    title: 'E-commerce Platform',
-    slug: 'ecommerce-platform',
-    shortDescription: 'Modern online store with real-time inventory',
-    description: 'A full-featured e-commerce platform built with React and Node.js. Features include real-time inventory management, payment processing, user authentication, and admin dashboard.',
+    title: 'Лендинг Emway',
+    slug: 'landing-platform',
+    shortDescription: 'Верстка сайта для ведущего производителя микроэлектроники',
+    description: 'Верстка сайта для ведущего производителя микроэлектроники в РФ с нуля на HTML5, CSS3, JQuery с использованием Elementor Wordpress',
     category: 'Web Applications',
     subcategory: 'E-commerce',
     technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
     images: [
-      '/images/projects/ecommerce-1.jpg',
+      '/src/assets/images/project-img-01.png',
       '/images/projects/ecommerce-2.jpg',
       '/images/projects/ecommerce-3.jpg'
     ],
-    demoUrl: 'https://ecommerce-demo.vercel.app',
-    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
+    demoUrl: 'https://emway.ru',
+    githubUrl: 'https://github.com/odswebdev',
     createdAt: new Date('2024-01-15'),
     updatedAt: new Date('2024-03-20'),
-    views: 1250,
-    likes: 89,
+    views: 10,
+    likes: 15,
     isFavorite: false,
     featured: true,
-    tags: ['shopping', 'payments', 'responsive']
+    tags: ['landing', 'responsive']
   },
   {
     id: '2',

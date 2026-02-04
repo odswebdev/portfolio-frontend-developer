@@ -49,24 +49,24 @@ const ProjectsSection = () => {
       const sampleProjects = [
         {
           id: 1,
-          title: "E-Commerce Platform",
-          shortDescription: "Полнофункциональная платформа электронной коммерции с панелью администратора",
-          detailedDescription: "Современный интернет-магазин с функционалом корзины, оплатой, системой отзывов и рейтингов, а также панелью администратора для управления товарами и заказами. Реализована система рекомендаций на основе машинного обучения.",
-          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          title: "Лендинг Emway",
+          shortDescription: "Многостраничный лендинг для ведущего производителя микроэлектроники",
+          detailedDescription: "Многостраничный лендинг для ведущего производителя микроэлектроники в РФ с нуля на HTML5, CSS3, JQuery с использованием Elementor Wordpress",
+          image: "/src/assets/images/project-img-01.png",
           images: [
-            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            "/src/assets/images/project-img-01.png",
             "https://images.unsplash.com/photo-1556742048-ede6c2b9e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
           ],
           category: "web",
           subcategory: "e-commerce",
           technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Tailwind", "Redux"],
-          likes: 42,
+          likes: 10,
           isLiked: false,
           views: 156,
           isFavorite: false,
-          demoUrl: "https://ecommerce-demo.vercel.app",
-          githubUrl: "https://github.com/username/ecommerce-platform",
+          demoUrl: "https://emway.ru",
+          githubUrl: "https://github.com/odswebdev",
           date: "2024-03-15"
         },
         {
