@@ -115,7 +115,7 @@ const AboutSection2 = () => {
           variants={tabAnimation}
           className="about__content__subtitle"
         >
-          <span className="about__content__subtitle__sel">10 лет опыта</span> во
+          <span className="about__content__subtitle__sel">7 лет опыта</span> во
           Frontend-разработке
         </motion.div>
         <motion.div

@@ -25,7 +25,7 @@ const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   
   // Режимы отображения
-  const [viewMode, setViewMode] = useState('grid');
+  const [viewMode, setViewMode] = useState('carousel');
   const [showFilters, setShowFilters] = useState(true);
   const [gridColumns, setGridColumns] = useState(3);
   const [displayEffects, setDisplayEffects] = useState('fade');
@@ -694,10 +694,10 @@ const ProjectsSection = () => {
   // Функция для получения названия режима
   const getViewModeName = (mode) => {
     const names = {
+      'carousel': 'Карусель',
       'grid': 'Сетка',
       'list': 'Список',
       'gallery': 'Галерея',
-      'carousel': 'Карусель',
       '3d-carousel': '3D Карусель',
       'hex-grid': 'Гексагоны',
       'timeline': 'Таймлайн',
@@ -843,15 +843,6 @@ const ProjectsSection = () => {
                 {getViewModeName(viewMode)}
               </span>
             </div>
-            {viewMode === 'carousel' && (
-              <button
-                onClick={() => setIsFullscreen(!isFullscreen)}
-                className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-lg hover:opacity-90 transition"
-              >
-                {isFullscreen ? <FiMinimize /> : <FiMaximize />}
-                {isFullscreen ? 'Выйти из полноэкранного' : 'Полноэкранный режим'}
-              </button>
-            )}
           </motion.div>
         )}
 

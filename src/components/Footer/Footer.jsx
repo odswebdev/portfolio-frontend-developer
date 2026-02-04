@@ -43,7 +43,7 @@ const Footer = ({ hamburgerRef, onThemeChange }) => {
             <img src="./assets/logo.png" alt="Logo" />
           </a>
           <p className="footer__copy__text">
-            Copyright &copy; 2024-2025. Все права защищены
+            Copyright &copy; 2024-2026. Все права защищены
           </p>
         </motion.div>
 

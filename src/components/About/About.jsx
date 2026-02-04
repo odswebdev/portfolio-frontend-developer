@@ -139,7 +139,7 @@ const About = () => {
           <ul className="about__content__list">
             <li className="about__content__item">Имя: Дмитрий Орлов</li>
             <li className="about__content__item">Дата рождения: 25.11.1990</li>
-            <li className="about__content__item">Возраст: 34 года</li>
+            <li className="about__content__item">Возраст: 35 лет</li>
             <li className="about__content__item">
               Место проживания: Россия, Саратов
             </li>
