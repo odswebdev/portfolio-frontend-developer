@@ -710,7 +710,8 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className={`py-16 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-gray-900 to-black text-white ${isFullscreen ? 'fixed inset-0 z-50 overflow-auto' : ''}`}>
+    <section id="projects" className={`py-16 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-gray-900 to-black p-[50px_0] text-white ${isFullscreen ? 'fixed inset-0 z-50 overflow-auto' : ''}`}>
+    
       <div className={`max-w-7xl mx-auto ${isFullscreen ? 'h-full' : ''}`}>
         {/* Заголовок секции - скрываем в полноэкранном режиме */}
         {!isFullscreen && (

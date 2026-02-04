@@ -3745,11 +3745,12 @@ canvas {
 }
 
 .project__title {
-  display: -webkit-box;
-  -webkit-line-clamp: 2; /* 2 строки */
+ /* display: -webkit-box;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; */
+  @apply text-theme-heading text-center text-clamp-h2 leading-[4rem] tracking-[0.15em] font-[600] font-['Marck_Script'] mb-[0px] pb-[3rem] uppercase;
 }
 
 .project__description {
